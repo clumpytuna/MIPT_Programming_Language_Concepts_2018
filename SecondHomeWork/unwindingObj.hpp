@@ -11,13 +11,14 @@
 
 #include <stdio.h>
 
+// Класс от которого необходимо наследоваться для корректной работы раскрутки
+// стека. Объекты будут провязаны в список, а затем один за другим удалены.
+
 class unwindingObject {
 public:
   unwindingObject();
   virtual ~unwindingObject();
   void deleteFromScope();
-  
-public:
   unwindingObject *previousObject;
 };
 
