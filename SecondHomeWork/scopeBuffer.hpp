@@ -14,11 +14,11 @@
 #include "unwindingObj.hpp"
 
 class scopeBuffer {
-
+  
 public:
   scopeBuffer();
   ~scopeBuffer();
-
+  
 public:
   jmp_buf buffer;
   unwindingObject *objects;
@@ -26,3 +26,4 @@ public:
   
 };
 #endif /* scopeBuffer_hpp */
+

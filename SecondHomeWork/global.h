@@ -13,3 +13,4 @@
 scopeBuffer *currentScope = NULL;
 
 #endif /* global_h */
+

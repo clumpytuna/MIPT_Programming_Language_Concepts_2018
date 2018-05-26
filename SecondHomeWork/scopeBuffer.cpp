@@ -19,3 +19,4 @@ scopeBuffer::scopeBuffer() {
 scopeBuffer::~scopeBuffer() {
   currentScope = previousScope;
 }
+
